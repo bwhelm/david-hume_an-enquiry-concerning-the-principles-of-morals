@@ -5,4 +5,10 @@
 i > em{
 	font-style: normal;
 }
-/* End Emphasis inside italics */
+/* End emphasis inside italics */
+
+/* Indentation of verse */
+p span.indent{
+	padding-left: 10em;
+}
+/* End indentation of verse */
