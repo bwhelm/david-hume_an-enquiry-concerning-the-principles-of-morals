@@ -8,9 +8,6 @@ i > em{
 /* End emphasis inside italics */
 
 /* Indentation of verse */
-p span.indent{
-	padding-left: 10em;
-}
 /* End indentation of verse */
 
 /* Verses */
@@ -27,5 +24,9 @@ p span.indent{
 
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
+}
+
+[epub|type~="z3998:verse"] p span.i1{
+	padding-left: 10em;
 }
 /* End verses */
