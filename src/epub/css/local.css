@@ -7,9 +7,6 @@ i > em{
 }
 /* End emphasis inside italics */
 
-/* Indentation of verse */
-/* End indentation of verse */
-
 /* Verses */
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
